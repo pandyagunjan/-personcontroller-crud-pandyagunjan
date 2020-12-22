@@ -1,0 +1,22 @@
+//To test if the controller works
+http://localhost:8080/people/home
+
+//Create POST
+http://localhost:8080/people/
+{
+    "firstName": "Gunjan",
+    "lastName": "Pandya"
+}
+
+//READ - GET
+http://localhost:8080/people/1
+
+//Read all - GET
+http://localhost:8080/people
+
+//Update - PUT
+http://localhost:8080/people/2
+
+//Delete - DELETE
+http://localhost:8080/people/3
+
